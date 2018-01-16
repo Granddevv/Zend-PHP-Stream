@@ -1,4 +1,4 @@
-PHPLifestream
+PHP Stream
 =============
 
 PHPLifestream aggregates and provides graphs of your activities around the 
@@ -11,11 +11,6 @@ internet.
 * Admin with openid login
 * Built with Zend Framework
 
-Live example is availabe at <http://www.johannilsson.me>
-
-Contact me on Twitter if you have any suggestions, like it or dont like it 
-<http://twitter.com/johanni>
-
 Installation
 ------------
 
@@ -25,7 +20,6 @@ Installation
 * Log files is located in /path/to/phplifestream/log you might need to chmod 
   this directory.
 * Edit the file /path/to/phplifestream/app/conf/app.ini
-* Add services to aggregate at http://example.com/services
 * Add cron job to aggregate added services.
 
 ### Cron job for aggregation
@@ -62,15 +56,4 @@ production properties in the app.ini file. The project file structure is then
 copied to and prepared with production settings to the 'dist' directory. A 
 tar ball is also created in this directory. Just for you to deploy.
 
-Todo
-----
-
-* Admin Admin
-* Ideas?
-* Fix TODO marks in the code.
-
-Credits
--------
-
-* Photo icon by Mark James <http://www.famfamfam.com/lab/icons/silk/>
 * Zend Framework
